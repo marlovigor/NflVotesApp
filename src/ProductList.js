@@ -58,11 +58,26 @@ class ProductList extends React.Component {
         
         ));
         return (
+            <div style={mainDiv}>
+                <h1 style={title1}>NFL Team Votes</h1>
             <div className='ui unstackable items'>
               {productComponent}
             </div>
+            </div>
         );
     }
+}
+
+const mainDiv={
+    backgroundColor:'skyblue'
+}
+
+
+const title1 ={
+    color:'red',
+    textAlign:"center",
+    fontSize:'6em',
+    margin:'0px'
 }
 
 class Product extends React.Component {
@@ -150,7 +165,7 @@ const buttomstyleup={
 
 const prodimg={
     position:'absolute',
-    width:'35%',
+    width:'120px',
     top:'25px',
 
 }
