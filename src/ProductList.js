@@ -147,6 +147,7 @@ const items = {
     position:'relative',
     backgroundColor:"grey",
     height:'200px',
+    borderRadius:'30px',
         
     
 
@@ -200,8 +201,11 @@ const title={
 const desc={
     position:'relative',
     textAlign:'center',
-    width:"35%",
-    margin:'0 auto'
+    width:"40%",
+    fontSize:'1.2vw',
+    bottom:'40px',
+    margin:'0 auto',
+   
 
 
 }
@@ -209,6 +213,8 @@ const desc={
 const userimg={
     position:'absolute',
     width:'23%',
+    height:'70%',
+    top:'5px',
     right:'20px',
     margin:'0'
 
